@@ -75,18 +75,25 @@ img {
   overflow: auto;
 }
 
-input[type=submit] {
+input[type=text], textarea {
+    width: 95%;
 
+}
+
+input[type=submit]{
+    
     margin-bottom: 20px;
     background:#4aaaa5;
     color:white;
+
+
 
 .footer {
   color: #fff;
   max-width: 100%;
   text-align: center;
   background: #666666;
-  
+  clear: both;
 }
 
 /* unvisited link */
